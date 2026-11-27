@@ -1,0 +1,24 @@
+supplier_id,sku_id,unit_price,location,qc_rating,supply_rating,discount,supplier_name,updated_at
+SUP06,SKU001,444.36,Ahmedabad,3.4,3.1,0.02,QuickMove FMCG,2025-04-01
+SUP03,SKU002,224.04,Chennai,4.0,4.7,,Southern Staples,2025-04-01
+SUP03,SKU006,162.56,Chennai,4.5,4.4,0.03,Southern Staples,2025-04-01
+SUP05,SKU008,65.7,Pune,4.4,4.8,,Metro Dairy Co,2025-04-01
+SUP01,SKU009,257.58,Mumbai,4.7,5.0,0.02,Apex Foods,2025-04-01
+SUP05,SKU011,37.61,Pune,4.6,5.0,,Metro Dairy Co,2025-04-01
+SUP07,SKU014,39.91,Surat,2.9,3.2,0.02,BudgetBulk Traders,2025-04-01
+SUP01,SKU015,27.32,Mumbai,4.8,4.9,,Apex Foods,2025-04-01
+SUP01,SKU016,15.69,Mumbai,4.5,4.8,0.05,Apex Foods,2025-04-01
+SUP02,SKU018,122.76,Delhi,4.3,4.6,0.02,Green Valley Agro,2025-04-01
+SUP03,SKU019,80.56,Chennai,4.1,4.1,0.02,Southern Staples,2025-04-01
+SUP04,SKU021,163.94,Kolkata,3.8,3.7,0.05,Eastern Beverages,2025-04-01
+SUP04,SKU022,161.77,Kolkata,3.8,4.2,0.03,Eastern Beverages,2025-04-01
+SUP01,SKU023,274.37,Mumbai,4.6,4.7,0.02,Apex Foods,2025-04-01
+SUP02,SKU026,227.37,Delhi,4.2,4.6,0.05,Green Valley Agro,2025-04-01
+SUP06,SKU026,242.9,Ahmedabad,3.4,3.8,,QuickMove FMCG,2025-04-01
+SUP07,SKU026,224.93,Surat,3.1,3.0,0.08,BudgetBulk Traders,2025-04-01
+SUP07,SKU031,215.85,Surat,2.9,3.7,,BudgetBulk Traders,2025-04-01
+SUP07,SKU033,136.88,Surat,3.2,2.9,0.02,BudgetBulk Traders,2025-04-01
+SUP08,SKU034,171.11,Hyderabad,4.1,4.5,,CleanHome Industries,2025-04-01
+SUP09,SKU035,150.47,Bengaluru,4.7,4.4,,Care & Glow Labs,2025-04-01
+SUP07,SKU035,144.47,Surat,2.8,3.0,,BudgetBulk Traders,2025-04-01
+SUP08,SKU035,143.65,Hyderabad,3.5,4.0,0.03,CleanHome Industries,2025-04-01

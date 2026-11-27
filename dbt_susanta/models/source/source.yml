@@ -1,0 +1,58 @@
+version: 2
+
+sources:
+  - name: source          
+    schema: default_source 
+    tables:
+      - name: customer
+      - name: customer_segments
+      - name: customer_updates
+      - name: deliver_partner
+      - name: inventory_2025-01
+      - name: inventory_2025-02
+      - name: inventory_2025-03
+      - name: inventory_2025-04
+      - name: inventory_2025-05
+      - name: inventory_2025-06
+      - name: orders_2025-01
+      - name: orders_2025-02
+      - name: orders_2025-03
+      - name: orders_2025-04
+      - name: orders_2025-05
+      - name: orders_2025-06
+      - name: partner_profile
+      - name: purchase_orders_2025-01
+      - name: purchase_orders_2025-02
+      - name: purchase_orders_2025-03
+      - name: purchase_orders_2025-04
+      - name: purchase_orders_2025-05
+      - name: purchase_orders_2025-06
+      - name: sku_profile
+      - name: supplier
+      - name: supplier_profile
+      - name: supplier_updates
+      - name: warehouse
+  - name: silver
+    schema: silver
+    tables:
+      - name: customer
+      - name: customer_segments
+      - name: customer_updates
+      - name: delivery_partner
+      - name: inventory_2025_all
+      - name: order_2025_all
+      - name: po_2025_all
+      - name: sku_profile
+      - name: supplier
+      - name: supplier_profile
+      - name: supplier_updates
+      - name: warehouse
+models:
+  - name: iventory_2025_all
+    columns:
+      - name: snapshot_date
+        data_tests:
+          - not_null
+          - unique
+
+

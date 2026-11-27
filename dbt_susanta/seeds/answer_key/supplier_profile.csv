@@ -1,0 +1,11 @@
+supplier_id,name,city,base_lead,true_on_time_prob,true_qc,price_factor
+SUP01,Apex Foods,Mumbai,4,0.95,4.6,1.05
+SUP02,Green Valley Agro,Delhi,5,0.9,4.3,1.0
+SUP03,Southern Staples,Chennai,5,0.88,4.1,0.98
+SUP04,Eastern Beverages,Kolkata,6,0.8,3.9,0.97
+SUP05,Metro Dairy Co,Pune,3,0.93,4.5,1.02
+SUP06,QuickMove FMCG,Ahmedabad,4,0.72,3.4,0.93
+SUP07,BudgetBulk Traders,Surat,7,0.62,3.0,0.9
+SUP08,CleanHome Industries,Hyderabad,6,0.85,4.0,1.0
+SUP09,Care & Glow Labs,Bengaluru,5,0.91,4.4,1.03
+SUP10,Festive Hub,Jaipur,8,0.78,3.7,0.96

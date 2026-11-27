@@ -1,0 +1,7 @@
+partner_id,name,hub,km_per_day,delay_prob,base_cost,cost_per_km
+DP01,SwiftExpress,Mumbai,700,0.07,60,0.09
+DP02,BlueLine Logistics,Delhi,550,0.12,45,0.07
+DP03,SouthRoute,Bengaluru,500,0.14,40,0.06
+DP04,CoastCargo,Chennai,450,0.18,35,0.05
+DP05,EastCourier,Kolkata,400,0.25,30,0.045
+DP06,PanIndia Freight,Nagpur,380,0.2,28,0.04

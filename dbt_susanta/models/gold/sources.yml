@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: fct_sales
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+      - name: sku_id
+        tests:
+          - not_null
+      - name: order_date
+        tests:
+          - not_null
+
+  - name: fct_inventory_snapshot
+    columns:
+      - name: snapshot_date
+        tests:
+          - not_null
+      - name: warehouse_id
+        tests:
+          - not_null
+      - name: sku_id
+        tests:
+          - not_null

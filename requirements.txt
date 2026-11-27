@@ -1,0 +1,8 @@
+numpy
+pandas
+dbt
+dbt-core
+dbt-databricks
+pyspark
+databricks-connect
+scikit-learn

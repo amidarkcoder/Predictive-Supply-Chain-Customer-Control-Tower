@@ -1,0 +1,6 @@
+warehouse_id,warehouse_name,location,capacity,manager_name
+WH01,Mumbai Central DC,Mumbai,6900,Rohan Mehta
+WH02,Delhi North DC,Delhi,7000,Anita Sharma
+WH03,Bengaluru South DC,Bengaluru,5100,Karthik Rao
+WH04,Chennai Coastal DC,Chennai,2400,Meena Iyer
+WH05,Kolkata East DC,Kolkata,2200,

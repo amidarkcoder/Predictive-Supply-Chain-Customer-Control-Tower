@@ -1,0 +1,144 @@
+version: 2
+
+models:
+  - name: order_2025_all
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+      - name: sku_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('sku_profile')
+                field: sku_id
+      - name: order_date
+        tests:
+          - not_null
+      - name: warehouse_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('warehouse')
+                field: warehouse_id
+      - name: customer_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('customer')
+                field: customer_id
+      - name: delivery_partner_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('delivery_partner')
+                field: delivery_partner_id
+
+  - name: inventory_2025_all
+    columns:
+      - name: snapshot_date
+        tests:
+          - not_null
+      - name: warehouse_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('warehouse')
+                field: warehouse_id
+      - name: sku_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('sku_profile')
+                field: sku_id
+
+  - name: po_2025_all
+    columns:
+      - name: po_id
+        tests:
+          - not_null
+      - name: supplier_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('supplier_profile')
+                field: supplier_id
+      - name: sku_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('sku_profile')
+                field: sku_id
+      - name: warehouse_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('warehouse')
+                field: warehouse_id
+
+seeds:
+  - name: customer
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: customer_segments
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+
+  - name: customer_updates
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+
+  - name: supplier
+    columns:
+      - name: supplier_id
+        tests:
+          - not_null
+      - name: sku_id
+        tests:
+          - not_null
+
+  - name: supplier_profile
+    columns:
+      - name: supplier_id
+        tests:
+          - unique
+          - not_null
+
+  - name: supplier_updates
+    columns:
+      - name: supplier_id
+        tests:
+          - not_null
+
+  - name: warehouse
+    columns:
+      - name: warehouse_id
+        tests:
+          - unique
+          - not_null
+
+  - name: sku_profile
+    columns:
+      - name: sku_id
+        tests:
+          - unique
+          - not_null
+
+  - name: delivery_partner
+    columns:
+      - name: delivery_partner_id
+        tests:
+          - unique
+          - not_null

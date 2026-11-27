@@ -1,0 +1,41 @@
+sku_id,item_name,speed_tier,variability_xyz,season,weekend_heavy,is_dead_stock,perishable,n_suppliers,single_source
+SKU001,Basmati Rice 5kg,A,X,,False,False,False,3,False
+SKU002,Whole Wheat Flour 5kg,A,X,,False,False,False,2,False
+SKU003,Sunflower Oil 1L,A,X,,False,False,False,3,False
+SKU004,Sugar 1kg,A,X,,False,False,False,1,True
+SKU005,Toor Dal 1kg,B,X,,False,False,False,2,False
+SKU006,Tea Powder 500g,B,X,,False,False,False,2,False
+SKU007,Instant Coffee 100g,B,Y,,False,False,False,1,True
+SKU008,Full Cream Milk 1L,A,X,,False,False,True,2,False
+SKU009,Butter 500g,B,Y,,False,False,False,2,False
+SKU010,Cheese Slices 200g,B,Y,,False,False,False,1,True
+SKU011,Bread Loaf,A,X,,True,False,True,1,True
+SKU012,Eggs Tray 30,A,X,,False,False,True,2,False
+SKU013,Potato Chips,A,Y,,True,False,False,2,False
+SKU014,Chocolate Bar,B,Y,,True,False,False,2,False
+SKU015,Biscuits Pack,A,X,,False,False,False,3,False
+SKU016,Instant Noodles,A,Y,,False,False,False,3,False
+SKU017,Pasta 500g,B,Y,,False,False,False,2,False
+SKU018,Pasta Sauce,C,Z,,False,False,False,1,True
+SKU019,Cola 2L,B,Y,summer,True,False,False,3,False
+SKU020,Mango Juice 1L,B,Y,summer,False,False,False,2,False
+SKU021,Ice Cream Tub,B,Y,summer,True,False,True,1,True
+SKU022,Mineral Water 12pk,B,Y,summer,False,False,False,3,False
+SKU023,Sunscreen Lotion,C,Z,summer,False,False,False,1,True
+SKU024,Hot Chocolate Mix,C,Z,winter,False,False,False,1,True
+SKU025,Winter Body Cream,C,Z,winter,False,False,False,3,False
+SKU026,Honey 500g,C,Y,winter,False,False,False,3,False
+SKU027,Shampoo 340ml,B,Y,,False,False,False,2,False
+SKU028,Soap 4pk,B,X,,False,False,False,2,False
+SKU029,Toothpaste,A,X,,False,False,False,2,False
+SKU030,Toothbrush,B,Y,,False,False,False,2,False
+SKU031,Detergent Powder 2kg,B,X,,False,False,False,3,False
+SKU032,Dishwash Liquid,B,Y,,False,False,False,2,False
+SKU033,Floor Cleaner,C,Z,,False,False,False,3,False
+SKU034,Toilet Paper 6pk,B,X,,False,False,False,2,False
+SKU035,Air Freshener,C,Z,,False,True,False,3,False
+SKU036,Holi Colour Pack,C,Z,festive,False,False,False,1,True
+SKU037,Dry Fruits Gift Box,C,Z,festive,False,False,False,1,True
+SKU038,Sweets Box,C,Z,festive,False,False,False,1,True
+SKU039,Scented Candles,C,Z,,False,True,False,1,True
+SKU040,USB Charging Cable,C,Z,,False,True,False,1,True
